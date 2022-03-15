@@ -6,6 +6,60 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "avaleska2908@mail.com",
+      "password": "$2a$10$Yeir4eTYK/7OvkaRfI3G9e84RMZOI1l48K8nFzJ227laAhoNa0GSy",
+      "firstname": "Ana",
+      "lastname": "Valeska",
+      "age": 29,
+      "id": 2
+    },
+    {
+      "email": "avaleska2908@hotmail.com",
+      "password": "$2a$10$qrItsJLt0cunzL8EGsxPOuZXOQA/Gxn5vdjpkRp5kOvyZSbMuteMG",
+      "firstname": "Ana",
+      "lastname": "Valeska",
+      "age": 29,
+      "id": 3
+    }
+  ],
+  "animals": [
+    {
+      "type": "Cachorro",
+      "name": "Cretina",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "type": "Gato",
+      "name": "Gordo",
+      "userId": 2,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "text": "mensagem de exemplo",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "comments": "Bora ver isso funcionar",
+      "userId": 2,
+      "id": 2
+    }
+  ],
+  "todo": [
+    {
+      "text": "todo de exemplo",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "text": "todo de exemplo",
+      "userId": 2,
+      "id": 2
     }
   ]
 }
