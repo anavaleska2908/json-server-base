@@ -2,5 +2,6 @@
   "users": 600,
   "animals": 644,
   "comments": 640,
-  "todo": 660
+  "todo": 660,
+  "bio": 664
 }

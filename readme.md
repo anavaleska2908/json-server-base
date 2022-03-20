@@ -236,3 +236,56 @@ Resposta:
   }
 ]
 ```
+
+
+<br><hr>
+
+### Cadastrando sua bio:
+
+<hr><br>
+
+```
+POST /bio
+```
+
+<br>
+
+É necessário passar o **userId** e **token** para escrevê-la:
+
+<br>
+
+```
+{
+  "text": "bio de exemplo",
+  "userId": 1
+}
+```
+
+```
+Retorno de sucesso:
+
+{
+	"text": "bio de exemplo",
+	"userId": 1,
+	"id": 1
+}
+```
+<br><hr>
+<h3 align='center'>Para acessar os dados:</h3>
+<hr><br>
+
+```
+GET /bio
+```
+
+Lembrar que todos terão acesso de leitura a ela, por isso não há necessidade de passar o token:
+```
+Resposta:
+[
+  {
+  	"text": "bio de exemplo",
+  	"userId": 1,
+  	"id": 1
+  }
+]
+```

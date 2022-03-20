@@ -13,6 +13,7 @@ const rules = auth.rewriter({
   animals: 644,
   comments: 640,
   todo: 660,
+  bio: 664,
 });
 
 app.use(cors());

@@ -61,5 +61,12 @@
       "userId": 2,
       "id": 2
     }
+  ],
+  "bio": [
+    {
+      "text": "Me chamo Ana Valeska, estudo na Kenzie Academy Brasil.",
+      "userId": 2,
+      "id": 1
+    }
   ]
 }
